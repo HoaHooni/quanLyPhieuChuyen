@@ -1,0 +1,19 @@
+.item_product {
+    text-decoration: none;
+    color: rgb(46, 37, 37);
+
+    &:hover {
+        background: rgba(0, 0, 21, 0.075) !important;
+        color: #fff;
+        text-decoration: none;
+    }
+
+}
+
+.test2:nth-child(odd) {
+    background-color: rgba(0, 0, 21, 0.05);
+}
+
+.test2:hover {
+    background-color: rgba(0, 0, 21, 0.075);
+}
